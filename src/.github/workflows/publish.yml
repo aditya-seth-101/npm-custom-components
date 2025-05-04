@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - nmae: Check the version
+      - name: Check the version
         id: check_version
         run: |
           CURRENT_VERSION=$(jq -r .version package.json)
