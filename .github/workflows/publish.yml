@@ -21,6 +21,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "22" # Specify the Node.js version you want to use
+          registry-url: "https://registry.npmjs.org"
+
 
       - name: Setup pnpm
         run: npm install -g pnpm
