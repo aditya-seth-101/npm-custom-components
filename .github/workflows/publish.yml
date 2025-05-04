@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "22" # Specify the Node.js version you want to use
 
-      - name: Setupp pnpm
+      - name: Setup pnpm
         run: npm install -g pnpm
 
       - name: Install dependencies
